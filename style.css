@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kenia&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+}
+
+.avatar img{
+    width: 85px;
+}
+.avatar p{
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+}
+
+.icon{
+    margin-right: 20px;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.posting{
+    font-family: "Kenia", sans-serif;
+    color: white;
+}
+
+.navbar{
+    background-color: rgb(178, 178, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.navright{
+    display: flex;
+    align-items: center;
+
+}
+
+.listnavbar ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+.listnavbar ul li{
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+.avatar2{
+    display: flex;
+    align-items: center;
+
+}
+.avatar2 p{
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+.avatar2 img{
+    width: 85px;
+}
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+}
+.top{
+    margin-top: 2rem;
+    box-shadow: 3px 3px 3px 0 grey;
+    padding: 2rem;
+    border-bottom: 2px solid grey;
+}
+.top h1{
+    font-family: "Inter", sans-serif;
+    color: rgb(178, 178, 255);
+    margin-bottom: 1.5rem;
+    
+
+}
+.main-list{
+    /* border: 2px solid rgb(255, 217, 0); */
+    width: 15%;
+    height: 33rem;
+    box-shadow: 3px 3px 3px 0 grey;
+    margin-right: 2rem;
+
+}
+.main-list ul{
+    list-style: none;
+    font-size: 1.3rem;
+    padding: 2rem;
+    margin-left: 25px;
+}
+.main-list ul li{
+    margin-bottom: 1rem;
+    font-family: "Inter";
+    padding: 1rem;
+}
+#housefa{
+    background-color: rgba(167, 167, 255, 0.466);
+    border-radius: 15px;
+
+}
+
+
+.main-list ul li i{
+    margin-right: 10px;
+}
+.paticipants{
+    border-bottom:  2px solid rgb(128, 128, 128);
+    display: flex;
+    gap: 1rem;
+
+}
+.left{
+    flex-direction: column;
+    display: flex;
+    
+
+}
+.pati-avatar{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+
+.pati-avatar img{
+    border: 2px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.pati-par{
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.bottom{
+    display: flex;
+    padding: 2rem;
+    gap: 1.5rem;
+
+}
+
+.bottom-left{
+    flex-direction: column;
+}
+.exploring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 300px;
+    gap: 1rem;
+
+}
+.exploring img{
+    width: 120px;
+    height: 80px;
+    border: 10px solid rgb(173, 173, 255);
+    border-radius: 15px;
+}
+
+.par1 p{
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 7px;
+
+}
+
+#telecom{
+    font-size: 0.5rem;
+    color: rgb(173, 173, 255) ;
+}
+
+footer{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 39.5%;
+    /* margin: auto; */
+    margin-left:739px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px 0 grey;
+}
+.news{
+    display: flex;
+    /* padding: 2rem; */
+}
+
+.newsleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.par3{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.news h1{
+    color: rgb(178, 178, 255);
+    display: block;
+}
